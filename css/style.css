@@ -1,0 +1,54 @@
+body {
+  background:rgb(211, 211,211);
+}
+.nav-bar{
+  height:17vh;;
+  width:auto;
+  background:black;
+
+
+}
+.logo {
+  margin:5vh 0px 0px 0px;
+  color:white;
+  padding:20px;
+}
+.menu-space{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.menu-button {
+height:40px;
+width:auto;
+margin:10vh 5vh 0px 0px;
+background-color: white;
+color:black;
+
+}
+.menu-button:hover{
+  background-color:black;
+  color:white;
+
+}
+.homepage-message{
+  font-style:"Open Sans";
+  font-size:3vw;
+  font-weight:bolder;
+  margin:30vh 10vw 0px 10vw;
+}
+.btn-space {
+  margin: 30px 300px 0px 43vw;
+  color: green;
+}
+.btn {
+  height 3vw;
+  width:auto;
+  background:orange;
+  color:black;
+  border-radius: 20%;
+  font-size:2vw;
+}
+.btn:hover{
+  background:lightblue;
+}
